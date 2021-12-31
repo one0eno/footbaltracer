@@ -1,0 +1,133 @@
+.wrapper {
+  display: flex;
+}
+.navbar {
+  background-color: #111827;
+  width: 280px;
+  height: 100vh;
+}
+
+.navbar ul {
+  position: relative;
+
+  color: #9fa2a9;
+
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+}
+
+.navbar ul li a {
+  display: flex;
+  flex-direction: row;
+  color: #d2d8dd;
+
+  font-weight: 400;
+  font-family: Roboto, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 0.2rem;
+  line-height: 2.1;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+
+  text-decoration: none;
+  font-size: 16px;
+
+  opacity: 0.9;
+
+  border-radius: 10px;
+  transition: 0.6s;
+}
+
+.navbar ul li a span {
+  margin-right: 10px;
+  line-height: 2;
+}
+
+.navbar ul li a:hover {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #2a3242;
+
+  text-decoration: none;
+  font-size: 16px;
+
+  opacity: 0.9;
+  transition: 0.6s;
+}
+
+.activeNav {
+  display: flex;
+  flex-direction: row;
+  color: #10b981;
+
+  background-color: #2a3242;
+
+  text-decoration: none;
+  font-size: 16px;
+
+  opacity: 0.9;
+  transition: 0.6s;
+}
+.activeNav span {
+  color: #10b981;
+}
+.activeNav div {
+  color: #10b981;
+}
+
+.contelement {
+  width: 100vw;
+}
+
+.lineclas {
+  background-color: white;
+}
+/*card ukser*/
+.cardUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #2a3242;
+  font-size: 16px;
+  opacity: 0.9;
+  padding: 12px 15px 10px 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.cardUserLogOff {
+}
+.cardUserLogOff:hover {
+  /* color: #10b981;
+  transition: 0.6s; */
+}
+.wrapperlogoff {
+  /* align-self: flex-end;
+  color: #d2d8dd;
+  width: 150%;
+  background-color: red; */
+}
+.cardUserName {
+  width: 60%;
+}
+.avatar {
+  display: flex;
+  width: ;
+  /* position: relative;
+  top: 5px; */
+}
+.avatar img {
+  border-radius: 50%;
+}
